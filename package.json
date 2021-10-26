@@ -1,0 +1,25 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusufkaratoprak/helloworld.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "yusufk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusufkaratoprak/helloworld/issues"
+  },
+  "homepage": "https://github.com/yusufkaratoprak/helloworld#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
