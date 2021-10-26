@@ -6,17 +6,3 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ["push", "gcr.io/$PROJECT_ID/cloudbuild-demo-nodejs"]
 
-  - name: 'gcr.io/cloud-builders/gcloud'
-    args:
-      [
-        "run",
-        "deploy",
-        "cloudbuild-demo-nodejs",
-        "--image",
-        "gcr.io/$PROJECT_ID/cloudbuild-demo-nodejs",
-        "--region",
-        "us-central1",
-        "--platform",
-        "managed",
-        "--allow-unauthenticated",
-      ]
